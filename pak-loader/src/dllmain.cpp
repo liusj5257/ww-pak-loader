@@ -1,5 +1,7 @@
 #include <Windows.h>
 #include <thread>
+#include <string>
+#include <filesystem> 
 
 const uintptr_t loadPakOffset = 0x10CE3EF0;
 
