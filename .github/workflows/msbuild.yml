@@ -40,4 +40,4 @@ jobs:
       uses: actions/upload-artifact@v4.6.2
       with:
         name: Build Artifacts
-        path: x64/${{ env.Configuration }}/*.dll
+        path: x64/Release/*.dll
